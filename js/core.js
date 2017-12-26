@@ -2,7 +2,7 @@
  * Created by Андрей on 26.12.2017.
  */
 (function() {
-    var video = document.getElementById('video'),
+    var video = document.getElementById('webcam'),
         vendorUrl = window.URL || window.webkitURL;
     navigator.getMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.
             mozGetUserMedia || navigator.msGetUserMedia;
